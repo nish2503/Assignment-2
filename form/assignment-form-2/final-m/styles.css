@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 800px;
+    margin-left: 280px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    background-color:rgb(135, 222, 199);
+    border-style:inset;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url("https://www.shutterstock.com/image-vector/vector-market-research-pattern-magnifier-260nw-737177002.jpg");
+    background-size: 160%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+body{
+    background-image: url("https://batam.kemenag.go.id/main/public/img/ebook/1649126453_a4886b9dffcbbd93baab.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.detail {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.details {  
+    font-weight: bold;
+
+}
+.last_name{
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+.first_name {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+}
+
+.address {
+    margin-left: 0px;
+    font-weight: bold;
+}
+.contact{
+    font-weight: bold;
+}
+.form {
+    margin-left: 0px;
+}
+
+.radio {
+    margin-left: 30px;
+}
+
+input[type="text"]{
+    text-align: center;
+    color: black;
+}
+
+#first_name,
+#last_name,
+#street,
+#state,
+#city,
+#pin-code,
+#contact-number {
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    height: 40px;
+    width: 200px;
+    border-style:initial;
+   padding-inline: 50px;
+   border-width: 5px;
+   background: rgb(174,227,238);
+background: radial-gradient(circle, rgba(174,227,238,1) 0%, rgba(97,146,204,1) 100%);
+}
+
+.form{
+    border-radius: 20px;
+}
+.review-head{
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.h5{
+    font-style: italic;
+    font-size: large;
+}
+.button {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-style:double;
+    background-color: #ffefef0d;
+    color: #fffdfd;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:rgb(6, 43, 82)
+    }
+    fieldset
+{ 
+border: solid 2px #2b2a2a;
+background-color:rgb(212, 255, 246) !important;
+
+}

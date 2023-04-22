@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY-FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <center>
+        <h1>SIMPLIFII TRAINING</h1>
+        <h3>SURVEY-FORM</h3>
+        <h4 class="h4">Fill the form carefully</h4>
+        <p class="h5">All the fields marked * are compulsary</p>
+    </center>
+
+    <div class="container">
+        <form id="survey-form" method="post" action="https://public.requestbin.com/r/enw7u145b8im9/2OdKB3mQMsLdF5wWLjMwo268gL8"
+        onsubmit="return submitform()">
+            <label class="details" for="name">NAME</label><br><br>
+            <input type="text" id="first_name" class="first_name" placeholder="Type first name" required><br><br>
+            <input type="text" id="last_name" class="last_name" placeholder="Type last name" required><br><br>
+            <label for="class" class="address">ADDRESS & CONTACT DETAILS</label><br><br>
+            <div>
+                <label for="class" class="detail">*STREET:</label><br><br>
+                    <input type="text" id="street" class="form" required placeholder="Type street address"></label><br><br>
+                <label class="detail">*CITY:</label><br><br>
+                    <input type="text" id="city" class="form" placeholder="Type city name" required></label><br><br>
+                <label class="detail">*STATE:</label><br><br>
+                    <input type="text" id="state" class="form" placeholder="Type state name" required></label><br><br>
+
+                <label class="detail">*PIN-CODE:</label><br><br>
+                    <input type="text" id="pin-code" class="form" placeholder="Type pin code" required></label><br><br>
+                <label class="detail">*CONTACT-NUMBER:</label><br><br>
+                    <input type="number" id="contact-number" class="form" placeholder="Type contact number" required></label>
+            </div><br>
+            <p class="review-head">Please Share Your Experience</p>
+            <label class="form-label">Quality of products received:</label><br>
+            <label><input type="radio" class="radio" name="quality" value="Excellent" required>&#128525 Excellent  </label><br>
+            <label><input type="radio" name="quality" class="radio" value="Good" required>&#128522 Good  </label><br>
+            <label><input type="radio" name="quality" class="radio" value="Bad" required>&#128533 Bad  </label><br><br>
+            <label class="form-label">Value for money:
+                <div class="form-radio-group">
+                    <label><input type="radio" class="radio" name="value-for-money" value="Excellent"
+                            required>&#128525 Excellent</label><br>
+                    <label><input type="radio" class="radio" name="value-for-money" value="Good"
+                            required>&#128522 Good </label><br>
+                    <label><input type="radio" class="radio" name="value-for-money" value="Bad" required>&#128533 Bad </label><br><br>
+                    <label class="form-label-2">Delivery:</label><br>
+                    <label><input type="radio" class="radio" name="quality" value="Excellent" required>&#128525 Excellent</label><br>
+                    <label><input type="radio" name="quality" class="radio" value="Good" required>&#128522 Good</label><br>
+                    <label><input type="radio" name="quality" class="radio" value="Bad" required>&#128533 Bad</label><br><br>
+                    <div>
+                        <center><input type="submit" class="button"></center>
+                    </div>
+                </div>
+            </label>
+        </form>
+    </div>
+
+</body>
+
+</html>
